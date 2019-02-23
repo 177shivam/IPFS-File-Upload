@@ -3,7 +3,7 @@
 Technology Used
 1. React
 2. Truffle
-3. IPFS
+3. IPFS <br>
 4.Infura
 
 Make sure you have already installed Metamask Extension in Google Chrome
@@ -14,10 +14,10 @@ Keep your <strong>node</strong> and <strong>nmp</strong> up to date.
 To run the following code <br>
 1. Open Ganache Desktop version <br>
 2. Open terminal and run following command <br>
-   inside dapp folder
-   $ truffle compile
-   $ truffle migrate --reset
+   inside dapp folder<br>
+   $ truffle compile<br>
+   $ truffle migrate --reset<br><br>
 
-    and inside dapp/client folder run 
+    and inside dapp/client folder run <br>
     $ npm start
     
