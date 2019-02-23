@@ -132,10 +132,8 @@ onSubmit(event){
             <div className="pure-u-1-1">
               <h1> Your Image </h1>
               
-               <img src={`https://ipfs.io/ipfs/${this.state.ipfsHash}`} alt=""/>
-               ${this.state.ipfsHash}
                <script>
-               document.write(this.state.ipfsHash)</script>
+               document.write(https://ipfs.io/ipfs/+this.state.ipfsHash)</script>
               <h2>Upload img</h2>
               <form onSubmit={this.runExample}>
                 <input type='file' onChange={this.captureFile} />
