@@ -1,13 +1,13 @@
 pragma solidity ^0.5.0;
 
 contract SimpleStorage {
-  bytes32 ipfsHash;
+  string ipfsHash;
 
-  function set(bytes32 x) public {
+  function set(string memory x) public {
     ipfsHash = x;
   }
 
-  function get() public view returns (bytes32) {
+  function get() public view returns (string memory) {
     return ipfsHash;
   }
 }
