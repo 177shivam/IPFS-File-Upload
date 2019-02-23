@@ -78,7 +78,7 @@ class App extends Component {
     this.setState({rhash:'shi'})
  await contract.methods.set(rhash).send({ from: accounts[0] });
      //this.contract.get.call(accounts[0]);
-     // console.log("helo "+(JSON.stringify(this.state.contract)));
+     
     // Stores a given value, 5 by default.
     // Get the value from the contract to prove it worked.
     const response = await contract.methods.get().call();
